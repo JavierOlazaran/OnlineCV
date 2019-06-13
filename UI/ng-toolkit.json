@@ -1,0 +1,13 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "OnlineCV",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "OnlineCV",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}

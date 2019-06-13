@@ -115,6 +115,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "OnlineCV"
+    }
+  },
+  "defaultProject": "OnlineCV",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
