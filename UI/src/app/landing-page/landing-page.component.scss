@@ -7,7 +7,7 @@
 }
 
 h1, h2 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'JetBrainsMono', Courier, monospace;
   font-weight: 50;
 }
 
@@ -16,6 +16,7 @@ h2 {
 
   span {
     text-decoration: underline;
+    cursor: pointer;
   }
 
   :hover {
