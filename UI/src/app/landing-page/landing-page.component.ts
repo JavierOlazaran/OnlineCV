@@ -19,7 +19,7 @@ export class LandingPageComponent implements OnInit {
   public secondLine = '';
   public secondLineText = 'In the meanwhile, you can check my profile on ';
   public secondLineSpan = '';
-  public secondLineSpanText = 'LinkedIN.';
+  public secondLineSpanText = 'LinkedIN';
 
   public thirdLine = '';
   public thirdLineText = 'and download my resume in ';

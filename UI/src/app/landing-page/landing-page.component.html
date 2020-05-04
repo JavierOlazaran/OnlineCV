@@ -1,19 +1,31 @@
 <div class="main">
-  <div style="text-align:left">
-    <h1>
-      javier.jose.olazaran@fullstack:~$ <span>{{commingSoonText}}</span>
-    </h1>
+  <div class="console-container">
+    <div class="console-upper-bar">
+      <div class="console-settings-icon"></div>
+      <div class="console-title">Under construction CV</div>
+      <div class="console-action-buttons-container">
+        <div class="console-action-button-min"><i class="ms-Icon ms-Icon--CalculatorSubtract" aria-hidden="true"></i></div>
+        <div class="console-action-button-restore"><i class="ms-Icon ms-Icon--Stop" aria-hidden="true"></i></div>
+        <div class="console-action-button-max"><i class="ms-Icon ms-Icon--Clear" aria-hidden="true"></i></div>
+      </div>
+    </div>
+    <div class="console-text-container">
+      <div class="first-line">
+        <p>
+          javier.jose.olazaran@fullstack:~$ <span>{{commingSoonText}}</span>
+        </p>
+      </div>
+      <div class="second-line">
+        <p>
+          {{firstLine}}
+        </p>
+        <p>
+          {{secondLine}}<span (click)="linkedinClick()" id="linkedin">{{secondLineSpan}}</span>
+        </p>
+        <p>
+          {{thirdLine}}<span (click)="resumeDownloadClick()" id="resume">{{thirdLineSpan}}</span>
+        </p>
+      </div>
+    </div>
   </div>
-  <div id="second-line">
-    <h2>
-      {{firstLine}}
-    </h2>
-    <h2>
-      {{secondLine}}<span id="linkedin" (click)="linkedinClick()" >{{secondLineSpan}}</span>
-    </h2>
-    <h2>
-      {{thirdLine}}<span id="resume" (click)="resumeDownloadClick()">{{thirdLineSpan}}</span>
-    </h2>
-  </div>
-  <div id="third-line"></div>
 </div>
