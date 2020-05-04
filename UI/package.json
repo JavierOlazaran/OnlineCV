@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "deploy": "ng build --prod && firebase deploy",
     "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
@@ -15,7 +16,6 @@
     "server": "node local.js",
     "build:prod:deploy": "npm run build:prod && npm run deploy",
     "build:serverless:deploy": "npm run build:serverless && npm run deploy",
-    "deploy": "serverless deploy",
     "build:server:prod": "webpack --config webpack.server.config.js --progress --colors",
     "build:server:serverless": "webpack --config webpack.server.config.js --progress --colors"
   },
